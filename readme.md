@@ -2,8 +2,9 @@
 
 A sleek, responsive web application that generates inspiring quotes from famous authors and personalities. With a single click, get a new quote displayed against a beautiful random background.
 
-## Live Link
-[click here]()
+## Live Demo
+Experience the Random Quotes Generator now [click here](https://suuumans.github.io/random-quotes/)
+
 ## Images
 <div align="center">
     <img src="image.png"alt="Desktop View" width="700" />
