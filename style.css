@@ -1,0 +1,71 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #c78624; /* Default background */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out; /* For smooth background transitions */
+}
+
+.container {
+    background-color: rgba(222, 229, 92, 0.557); /* Semi-transparent white background */
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 79%;
+}
+
+.quote-box {
+    margin-bottom: 20px;
+}
+
+.quote-text {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.quote-author {
+    font-style: italic;
+    color: #555;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+#new-quote-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+#copy-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+#twitter-share-btn {
+    background-color: #1da1f2;
+    color: white;
+}
+
+#export-btn {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
